@@ -9,12 +9,12 @@ Iterative algorithms for minimum cost flow problem solving
 
 主函数为mincost函数，输入的内容为
 
-```
-G1：权重为网络的容量的图（digraph对象）
-G2：权重为网络的单位运费的图（digraph对象）
-vs：发点（字符串类型）
-vt：收点（字符串类型）
-pl：是否可视化最小费用最大流图（布尔类型）
+``` yaml
+G1: 权重为网络的容量的图（digraph对象）
+G2: 权重为网络的单位运费的图（digraph对象）
+vs: 发点（字符串类型）
+vt: 收点（字符串类型）
+pl: 是否可视化最小费用最大流图（布尔类型）
 ```
 
 此处提供了`司守奎, 孙兆亮主编. 数学建模算法与应用. 第3版[M]. 国防工业出版社, 2021.`中的一个示例数据，存储在[data.mat](https://github.com/IceBrecker/MinCostFlow/blob/main/data.mat)文件中。使用该数据求解得到的结果与该书中使用优化工具箱求解的结果一致。
