@@ -10,8 +10,8 @@ Iterative algorithms for minimum cost flow problem solving
 主函数为mincost函数，输入的内容为
 
 ``` yaml
-G1: 权重为网络的容量的图（digraph对象）
-G2: 权重为网络的单位运费的图（digraph对象）
+G1: 边权为网络的容量的图（digraph对象）
+G2: 边权为网络的单位运费的图（digraph对象）
 vs: 发点（字符串类型）
 vt: 收点（字符串类型）
 pl: 是否可视化最小费用最大流图（布尔类型）
