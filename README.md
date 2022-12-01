@@ -1,7 +1,7 @@
 # MinCostFlow
 解决最小费用流问题的迭代算法
 
-Iterative algorithms for minimum cost flow problem solving
+An iterative algorithm for minimum cost flow problem
 
 `MinCostFlow`是根据1961年`Busacker`和`Gowan`提出的求最小费用流的迭代法编写的，编写时主要参考了`司守奎, 孙兆亮主编. 数学建模算法与应用. 第3版[M]. 国防工业出版社, 2021.`中的算法描述。由于书中的代码是使用优化工具箱求解的，故编写了此代码以使用迭代法求解。
 
